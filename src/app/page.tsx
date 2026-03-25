@@ -76,15 +76,6 @@ export default function LandingPage() {
           <p className="mt-4 text-sm text-muted-foreground">
             No credit card required. Your first 2 reports are free.
           </p>
-          <p className="mt-6 text-sm">
-            <Link
-              href="/demo"
-              className="font-semibold text-primary hover:text-primary/80 underline underline-offset-2"
-            >
-              Try the interactive demo
-            </Link>{" "}
-            without signing in.
-          </p>
         </div>
       </section>
 

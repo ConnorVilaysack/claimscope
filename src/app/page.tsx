@@ -8,7 +8,6 @@ import {
   Mic,
   CheckCircle,
   ArrowRight,
-  ChevronRight,
 } from "lucide-react";
 import { ProductDemo } from "@/components/product-demo";
 
@@ -57,7 +56,7 @@ export default function LandingPage() {
             insurance inspection reports in minutes — not hours. Right from your
             phone, right on-site.
           </p>
-          <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-3">
+          <div className="mt-10 flex justify-center">
             <Link
               href="/login"
               className="inline-flex h-14 w-full sm:w-auto items-center justify-center gap-2 rounded-2xl bg-primary px-8 text-lg font-semibold text-white shadow-md hover:bg-primary/90 transition-all active:scale-[0.98]"
@@ -65,13 +64,6 @@ export default function LandingPage() {
               Try Free
               <ArrowRight className="h-5 w-5" />
             </Link>
-            <a
-              href="#how-it-works"
-              className="inline-flex h-14 w-full sm:w-auto items-center justify-center gap-2 rounded-2xl border-2 border-border bg-white px-8 text-lg font-semibold hover:bg-muted transition-all active:scale-[0.98]"
-            >
-              See How It Works
-              <ChevronRight className="h-5 w-5" />
-            </a>
           </div>
           <p className="mt-4 text-sm text-muted-foreground">
             No credit card required. Your first 2 reports are free.
